@@ -1,0 +1,20 @@
+1. Definisi kerja AWS
+2. Perbedaan on-premise, hybrid, cloud
+3. Dasar-dasar infrastruktur global AWS Cloud
+4. 6 manfaat AWS Cloud
+5. Deskripsi dan contoh layanan utama AWS, termasuk komputasi, jaringan, database, dan penyimpanan
+6. Identifikasi solusi yand sesuai menggunakan layanan AWS Cloud dengan kasus client
+7. AWS Well-Architected Framework
+8. Penjelasan shared responsibility model
+9. Layanan keamanan utama AWS Cloud
+10. Dasar-dasar migrasi AWS Cloud
+11. Manfaat finansial dari AWS Cloud untuk manajemen biaya entitas
+12. Menentukan penagihan utama, pengelolaan akun, dan model harga
+13. Cara penggunaan pricing tools yang dapat menghemat layanan AWS
+
+/////////////////////MATERI//////////////////////////
+
+1. Pengantar
+   > Manfaat menggunakan AWS
+   > Perbedaan penyajian on-demand dan cloud
+   > Model harga pay-as-you-go

@@ -29,18 +29,36 @@
 
 /////////////////////MATERI//////////////////////////
 
-1. Pengantar
+1. Pengantar ke Amazon Web Service
    > Manfaat menggunakan AWS
    > Perbedaan penyajian on-demand dan cloud
    > Model harga pay-as-you-go
 
+	
+
 /////////////////////////////////////////////////////
 
-2. 
+2. Komputasi di Cloud
 
 Hal pertama yang kita pelajari di modul ini berkenaan dengan komputasi cloud dan apa saja yang ditawarkan AWS.
 
 AWS mendefinisikan komputasi cloud sebagai penyajian sesuai permintaan (on-demand) sumber daya IT melalui internet dengan harga sesuai pemakaian (pay-as-you-go).
+
+- Basic, Serverless, and Container
+
+#1 Jika Anda ingin menjalankan aplikasi dan menginginkan akses penuh ke sistem operasinya seperti Linux atau Windows, Anda bisa menggunakan Amazon EC2.
+
+#2 Jika Anda ingin menjalankan fungsi yang berjalan singkat, aplikasi berbasis kejadian, dan Anda tak ingin mengelola infrastrukturnya sama sekali, gunakanlah layanan AWS Lambda.
+
+#3 Jika Anda ingin menjalankan beban kerja berbasis Docker container di AWS, langkah yang perlu Anda lalui adalah:
+
+a. Anda harus memilih layanan orkestrasinya terlebih dahulu. Anda bisa menggunakan Amazon ECS atau Amazon EKS.
+
+b. Setelah memilih alat orkestrasinya, kemudian Anda perlu menentukan platformnya. Anda dapat menjalankan container pada EC2 instance yang Anda kelola sendiri atau dalam lingkungan serverless seperti AWS Fargate yang dikelola oleh AWS.
+
+
+- Summary
+
 
 Ini berarti Anda dapat membuat permintaan untuk sumber daya IT seperti komputasi, jaringan, penyimpanan, analitik, atau jenis sumber daya lainnya. Alih-alih membayar sumber daya tersebut di muka, Anda cukup membayarnya pada setiap akhir bulan.
 
@@ -80,7 +98,7 @@ Terakhir, ada AWS Lambda. Layanan ini memungkinkan Anda untuk mengunggah kode da
 
 /////////////////////////////////////////////////////
 
-3.
+3. Infrastruktur Global dan Keandalan
 
 - Membahas bagaimana klaster logis dari data center membentuk Availability Zone. Lalu, Availability Zone membentuk Region dan tersebar secara global.
 
@@ -99,12 +117,4 @@ Dengan mempelajari modul ini, semoga Anda Anda dapat memahami bahwa AWS tersedia
 
 /////////////////////////////////////////////////////
 
-#1 Jika Anda ingin menjalankan aplikasi dan menginginkan akses penuh ke sistem operasinya seperti Linux atau Windows, Anda bisa menggunakan Amazon EC2.
-
-#2 Jika Anda ingin menjalankan fungsi yang berjalan singkat, aplikasi berbasis kejadian, dan Anda tak ingin mengelola infrastrukturnya sama sekali, gunakanlah layanan AWS Lambda.
-
-#3 Jika Anda ingin menjalankan beban kerja berbasis Docker container di AWS, langkah yang perlu Anda lalui adalah:
-
-a. Anda harus memilih layanan orkestrasinya terlebih dahulu. Anda bisa menggunakan Amazon ECS atau Amazon EKS.
-
-b. Setelah memilih alat orkestrasinya, kemudian Anda perlu menentukan platformnya. Anda dapat menjalankan container pada EC2 instance yang Anda kelola sendiri atau dalam lingkungan serverless seperti AWS Fargate yang dikelola oleh AWS.
+4. Jaringan

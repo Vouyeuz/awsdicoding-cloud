@@ -12,6 +12,21 @@
 12. Menentukan penagihan utama, pengelolaan akun, dan model harga
 13. Cara penggunaan pricing tools yang dapat menghemat layanan AWS
 
+///////////////////////MODUL/////////////////////////
+1. Pengantar ke Amazon Web Service
+2. Komputasi di Cloud
+3. Infrastruktur global dan keandalan
+4. Jaringan
+5. Penyimpanan dan database
+6. Keamanan
+7. Pemantauan dan analitik
+8. Harga dan dukungan
+9. Migrasi dan inovasi
+10. Perjalanan cloud
+11. Dasar-dasar AWS Certified Cloud Practitioner 
+12. Penilaian Akhir
+
+
 /////////////////////MATERI//////////////////////////
 
 1. Pengantar
